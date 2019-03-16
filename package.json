@@ -1,0 +1,36 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "A React application",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start": "node server.js"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "bulletin",
+    "board"
+  ],
+  "author": "Priyank Rege",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.3.13"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "es6-promise": "^4.1.1",
+    "express": "^3.0.6",
+    "httpster": "^1.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "morgan": "^1.8.2",
+    "nunjucks": "^3.0.1"
+  }
+}
